@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario 5 - Leticia Lozano</title>
+    <!--23/10/2017-->
+</head>
+
+<body>
+    <form action="." method="get">
+        <fieldset>
+            <legend>Únete</legend>
+            <p>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</p>
+            <ul>
+                <li><label>Nombre y apellidos: <input type="text" name="Nombre y apellidos" required="required"></label></li>
+                <li><label>Edad:</label>  
+                   <ul>
+                       <li><label><input type="radio" name="edad" value="1"/> Menos de 20</label></li>
+                       <li><label><input type="radio" name="edad" value="2"/> Entre 20 y 40</label></li>
+                       <li><label><input type="radio" name="edad" value="3"/> Entre 40 y 60</label></li>
+                       <li><label><input type="radio" name="edad" value="4"/> Más de 60</label></li>
+                   </ul>
+                
+                 <li><label>Estudios:</label>    
+                   <ul>
+                       <li><label><input type="checkbox" name="bach" value="bach"/> Bachiller</label></li>
+                       <li><label><input type="checkbox" name="fp" value="fp"/> Formación profesional</label></li>
+                       <li><label><input type="checkbox" name="inglés" value="inglés"/> Inglés B2</label></li>
+                       <li><label><input type="checkbox" name="francés" value="francés"/> Francés B2</label></li>
+                   </ul>
+                   
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
