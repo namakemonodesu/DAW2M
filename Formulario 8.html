@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario 8 - Leticia Lozano</title>
+    <!--23/10/2017-->
+</head>
+
+<body>
+    <form action="." method="get">
+        <fieldset>
+            <ul>
+                <li><label for="color">Color:</label>
+                    <select name="color">
+                        <option value="rojo">Rojo</option>
+                        <option value="azul">Azul</option>
+                        <option value="negro">Negro</option>
+                      <optgroup label="Metalizados">
+                        <option value="plateado">Plateado</option>
+                        <option value="dorado">Dorado</option>
+                      </optgroup>
+                    </select>
+                </li>
+                <li><label for="caracteristicas">Características:</label>
+                    <select name="caracteristicas" size="4" multiple>
+                      <option value="1">Con cordones</option>
+                      <option value="2">Logo metálico</option>
+                      <option value="3">Ligeras</option>
+                      <option value="4">Con música</option>
+                    </select>
+                </li>
+            </ul>
+            <input type="submit" value="Enviar"/>
+        </fieldset>  
+    </form>
+</body>
+
+</html>
