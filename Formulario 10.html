@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario 10 - Leticia Lozano</title>
+    <!--23/10/2017-->
+</head>
+
+<body>
+    <form action="." method="get">
+        <h1>Formulario de solicitud de zapatos</h1>
+        <fieldset>
+            <legend>Información personal</legend>
+            <ul>
+                <li><label>Nombre: <input type="text" name="nombre" required=""></label></li>
+                <li><label>Email: <input type="email" name="email"></label></li>
+                <li><label>Teléfono: <input type="tel" name="Teléfono" size="20"></label></li>
+                <li><label>Cuéntanos tu historia... <br><textarea name="Comentario" rows="6" cols="60" placeholder="No más de 300 caracteres" maxlength="300"></textarea></label></li>
+            </ul>        
+        </fieldset>
+        <h2>Diseña tus zapatos</h2>
+        <fieldset>
+            <legend>Diseño personalizado</legend>
+            <fieldset> 
+                <legend>Color <i>(elige uno)</i></legend>
+                 <ul>
+                       <li><label><input type="radio" name="color" value="rojo"/>Rojo</label></li>
+                       <li><label><input type="radio" name="color" value="azul"/>Azul</label></li>
+                       <li><label><input type="radio" name="color" value="negro"/>Negro</label></li>
+                       <li><label><input type="radio" name="color" value="plata"/>Plata </label></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Características <i>(Elige las que quieras)</i></legend>
+                <ul>
+                       <li><label><input type="checkbox" name="cordones"/>Con cordones</label></li>
+                       <li><label><input type="checkbox" name="logo" checked/>Logo metálico</label></li>
+                       <li><label><input type="checkbox" name="ligeras"/>Ligeras </label></li>
+                       <li><label><input type="checkbox" name="música"/>Con música </label></li>
+                </ul>
+            </fieldset>
+                
+            <fieldset>
+                <legend>Tamaño</legend>
+                <label for="tamaño">Tamaño de los zapatos</label>
+                    <select id="tamaño">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5" selected>5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+            </fieldset>      
+        </fieldset>
+        <input type="submit" value="Solicitar"/>
+        <input type="reset" value="Restablecer"/>
+    </form>
+</body>
+
+</html>
